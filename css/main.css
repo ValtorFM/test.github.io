@@ -1,0 +1,257 @@
+body {overflow-x: hidden; width: 1380px; height: 980px}
+
+.navigation {
+	width: 1380px;
+	height: 85px;
+	background-color: #333;
+	position: fixed;
+	top: 0px; left: 0px;
+
+}
+
+.information {
+	width: 1380px;
+	height: 690px;
+	background-color: #333;
+	position: absolute;
+	top: 86px; left: 0px; 
+}
+
+.information #first {
+	width: 300px;
+	height: 470px;
+	background-color: #373636;
+	position: relative;
+	left: 60px;
+	top: -35px;
+}
+
+.information #first #eclipse{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f5c450;
+	position: relative;
+	top: 130px;
+	left: 50px;
+}
+
+.information #first #eclipse p{
+	font-family: Arial, 'Arial';
+	font-size: 72px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+
+.information #second {
+	width: 300px;
+	height: 470px;
+	background-color: #373636;
+	position: relative;
+	left: 520px;
+	top: -579px;
+}
+
+#second #eclipse {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f5c450;
+	position: relative;
+	top: 130px;
+	left: 50px;
+}
+
+#second #eclipse p{
+	font-family: Arial, 'Arial';
+	font-size: 72px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+#second #view-block {
+	width: 300px;
+	height: 470px;
+	position: relative;
+	opacity: 0;
+	top: -234px;
+	visibility: hidden;
+	transition: 1s opacity;
+}
+
+.information #second #view-block #eclipse2 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f5c450;
+	position: relative;
+	top: -210px;
+	left: 50px;
+}
+
+.information #second #view-block #eclipse2 p{
+	font-family: Arial,'Arial';
+	font-size: 72px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: white;
+}
+
+.information #second:hover #view-block {
+	cursor: pointer;
+	visibility: visible;
+	opacity: 1;
+	background-color: #373636;
+}
+
+
+.information #three {
+	width: 300px;
+	height: 470px;
+	background-color: #373636;
+	position: relative;
+	left: 980px;
+	top: -1120px;
+}
+
+.information #three #eclipse {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f5c450;
+	position: relative;
+	top: 130px;
+	left: 50px;
+}
+
+.information #three #eclipse p{
+	font-family: Arial,'Arial';
+	font-size: 72px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: white;
+}
+
+#three #view-block {
+	width: 300px;
+	height: 470px;
+	position: relative;
+	opacity: 0;
+	top: -235px;
+	visibility: hidden;
+	transition: 1s opacity;
+}
+
+.information #three:hover #view-block {
+	cursor: pointer;
+	visibility: visible;
+	opacity: 1;
+	background-color: #373636;
+}
+
+.information #three #view-block #eclipse3 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f5c450;
+	position: relative;
+	top: -210px;
+	left: 50px;
+}
+
+.information #three #view-block #eclipse3 p{
+	font-family: Arial,'Arial';
+	font-size: 72px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	color: white;
+}
+
+.information #three #view-block p{
+	font-family: Arial,'Arial';
+	font-size: 36px;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	color: white;
+}
+
+#first #view-block {
+	width: 300px;
+	height: 470px;
+	background-color: black;
+	position: relative;
+	opacity: 0;
+	top: -235px;
+	visibility: hidden;
+	transition: 1s opacity;
+}
+
+#second #view-block p{
+	font-family: Arial,'Arial';
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 250px;
+}
+
+#first #view-block #eclipse1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f5c450;
+	position: relative;
+	top: -170px;
+	left: 50px;
+}
+
+#first #view-block #eclipse1 p{
+	font-family: Arial,'Arial';
+	font-size: 72px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+.information #first:hover #view-block {
+	cursor: pointer;
+	visibility: visible;
+	opacity: 1;
+	background-color: #373636;
+}
+
+#first #view-block p{
+	font-family: Arial,'Arial';
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 250px;
+}
+
+
+.information #aboutme #lp {
+	font-family: Arial,'Arial';
+	font-size: 32px;
+	color: white;
+	text-align: center;
+}
+
+.information #aboutme #whyme {
+	font-family: Arial,'Arial';
+	font-size: 72px;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	top: -30px;
+}
